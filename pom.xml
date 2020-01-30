@@ -445,15 +445,10 @@
 		</plugins>
 	</build>
 <distributionManagement>
-        <repository>
-        <id>nexus</id>
-        <name>mohan</name>
-        <url>http://localhost:8081/repository/mohan/</url>
-        </repository>
         <snapshotRepository>
         <id>nexus</id>
         <name>maven-snapshots</name>
-        <url>http://35.154.75.177:8081/repository/maven-snapshots/</url>
+        <url>http://35.154.75.177:8081/repository/maven-petclinic/</url>
         </snapshotRepository>
         </distributionManagement>
 	<url>demopetclinic</url>
