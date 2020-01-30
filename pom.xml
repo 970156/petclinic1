@@ -450,11 +450,6 @@
         <name>petclinic</name>
         <url>http://35.154.75.177:8081/repository/petclinic/</url>
         </repository>
-        <snapshotRepository>
-        <id>nexus</id>
-        <name>maven-snapshots</name>
-        <url>http://35.154.75.177:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
         </distributionManagement>
 	<url>demopetclinic</url>
 </project>
