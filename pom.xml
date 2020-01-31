@@ -445,11 +445,16 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-        <Repository>
-        <id>nexus</id>
+        <repository>
+        <id>nexus-petclinic</id>
         <name>maven-petclinic</name>
         <url>http://35.154.75.177:8081/repository/maven-petclinic/</url>
-        </Repository>
+        </repository>
+        <snapshotRepository>
+        <id>nexus</id>
+        <name>maven-snapshots</name>
+        <urlhttp://35.154.75.177:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
         </distributionManagement>
 	<url>demopetclinic</url>
 </project>
