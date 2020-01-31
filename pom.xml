@@ -446,11 +446,10 @@
 	</build>
 	<distributionManagement>
         <repository>
-        <snapshotRepository>
         <id>nexus</id>
-        <name>maven-snapshots</name>
-        <url>http://35.154.75.177:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+        <name>mohan</name>
+        <url>http://35.154.75.177:8081/repository/maven-petclinic/</url>
+        </repository>
         </distributionManagement>
 	<url>demopetclinic</url>
 </project>
